@@ -1,0 +1,4 @@
+class hello_world{
+    int a, b;
+    int c[120], d[123];
+}

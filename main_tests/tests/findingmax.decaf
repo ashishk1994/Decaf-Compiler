@@ -1,0 +1,15 @@
+class Progra
+{
+	int main()
+	{
+		int i,max,arr[100000];
+		max=arr[1];
+		for i=1,10
+		{
+			if(arr[i]>max)
+			{
+				max=arr[i];
+			}
+		}
+	}
+}

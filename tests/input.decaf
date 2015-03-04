@@ -1,0 +1,16 @@
+class Progra {
+	int  a,b,c;
+	int foo()
+	{
+		int a;
+		main();
+	}
+	
+	int main()
+	{
+		int c;
+		int a;
+		a = "ashish";
+		c = a +   c; 
+	} 
+}

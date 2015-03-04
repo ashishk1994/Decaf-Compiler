@@ -1,0 +1,38 @@
+class Program
+{  
+// hello :D
+	// \n \n \n
+	int a, b[10] ,c[100], d ;
+	boolean _ABC;
+	int at, bt ,cd[100];
+	int hello 
+		(int a)
+	{
+		int x,y,z;
+		boolean a,b,c,d;
+		int a; //sdhasdhasdj
+		x-=y - z;
+		hello(x,y,z,t,a+b,hello(),-42,-(a+b), 72, (82+1));
+		if(a+b!= c+d+2&&1)
+		{
+		}
+		else
+		{
+			int a;
+		}
+		for x= 1,10
+		{
+			return -a;
+			break;
+			continue;		
+		}
+		break;
+		continue;
+		{
+		}
+		callout("HELLO",ab,cd,de,"abc");
+	}
+	int hello1(int a, int b, int c, int d)
+	{
+	}
+}

@@ -1,0 +1,11 @@
+class Progra
+{
+	int main()
+	{
+		int i,arr[100000],brr[100000],crr[100000];
+		for i=1,10000
+		{
+			crr[i]=arr[i]+brr[i];
+		}
+	}
+}

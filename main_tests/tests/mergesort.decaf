@@ -1,0 +1,60 @@
+class Progra
+{
+	void partition(int arr[], int low, int high)
+	{
+		int mid;
+		if(low<high)
+		{
+			mid=(low+high)/2;
+			partition(arr,low,mid);
+			partition(arr,mid+1,high);
+			mergesort(arr,low,mid,high);
+		}
+	}
+	int main()
+	{
+		int i,j,n,temp,merge[10];
+		partition(merge,0,n-1);
+	}
+	void mergesort(int arr[],int low, int mid, int high)
+	{
+		int temp[10],i,j,k,l,m;
+		m=mid+1;
+		for l=low,mid
+		{
+			if(m>high)
+			{
+				break;
+			}
+			if(arr[l]<=arr[m])
+			{
+				temp[i]=arr[l];
+				l=l+1;
+			}
+			else
+			{
+				temp[i]=arr[m];
+				m=m+1;
+			}
+			i=i+1;
+		}
+		if(l>mid)
+		{
+			for k=m,high
+			{
+				temp[i]=arr[k];
+				i=i+1;
+			}
+		}
+		else
+		{
+			for k=l,mid
+			{
+				temp[i]=arr[k];
+				i=i+1;
+			}
+		}
+	}
+}
+
+
